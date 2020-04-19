@@ -73,7 +73,17 @@ equation
                 identifier="plot-y",
                 curves={Curve(y=y)},
                 x=Axis(unit="us"))},
-        caption="A caption can have multiple paragraphs and contain different links and variable replacements.\nThe value of %(variable:x) at the end of simulation is %{x}.\nPlot links: %(plot:plot-x), %[first plot](plot:plot-x)\nVariable links: %(variable:y), %[y(t)](variable:y)\nModelica URI: %(modelica:///Modelica.Blocks), %[link](modelica:///Modelica.Blocks).\nGeneric URI: %(http://www.modelica.org), %[link](http://www.modelica.org)."),
+        caption=
+"
+A caption can have multiple paragraphs and contain different links and variable replacements.
+
+The value of %(variable:x) at the end of simulation is %{x}.
+Plot links: %(plot:plot-x), %[first plot](plot:plot-x)
+Variable links: %(variable:y), %[y(t)](variable:y)
+Modelica URI: %(modelica:///Modelica.Blocks), %[link](modelica:///Modelica.Blocks).
+Generic URI: %(http://www.modelica.org), %[link](http://www.modelica.org).
+"
+    ),
     Figure(
         title="No legend",
         identifier="e8011",
