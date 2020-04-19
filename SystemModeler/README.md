@@ -14,7 +14,7 @@ Figure(
     plots={
         Plot(curves={Curve(y=x)})})
 ```
-![Plot](4afa9.png)
+<img src="4afa9.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -27,7 +27,7 @@ Figure(
             curves={Curve(y=y)},
             x=Axis(min=1000000, max=2000000, unit="us"))})
 ```
-![Plot](27b52.png)
+<img src="27b52.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -39,7 +39,7 @@ Figure(
             curves={Curve(y=x)},
             x=Axis(min=1, max=2, unit="s"))}),
 ```
-![Plot](8d098.png)
+<img src="8d098.png" alt="Figure" width=300 />
 ```
 Figure(
     title="Fixed y-range",
@@ -50,7 +50,7 @@ Figure(
             curves={Curve(y=x)},
             y=Axis(min=-0.5, max=0.5, unit="m"))})
 ```
-![Plot](9335d.png)
+<img src="9335d.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -62,7 +62,7 @@ Figure(
             curves={Curve(y=x)},
             y=Axis(min=-100, max=100, unit="cm"))})
 ```
-![Plot](719f3.png)
+<img src="719f3.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -73,7 +73,7 @@ Figure(
         Plot(curves={Curve(y=x, legend="x(t)")}),
         Plot(curves={Curve(x=x, y=y, legend="(x(t), y(t))")})})
 ```
-![Plot](03671.png)
+<img src="03671.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -83,7 +83,7 @@ Figure(
     plots={
         Plot(curves={Curve(y=x)})})
 ```
-![Plot](105c9.png)
+<img src="105c9.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -102,7 +102,7 @@ Figure(
             x=Axis(unit="us"))},
     caption="A caption can have\nmultiple paragraphs and contaidifferent links and variable replacements. \nThe value of(variable:x) at the end of simulation is %{x}.\nPlot links:(plot:plot-x), %[first plot](plot:plot-x)\n Variable links:(variable:y), %[y(t)](variable:y)\n Modelica URI: %(modelica:/Modelica.Blocks), %[link](modelica:///Modelica.Blocks).\nGeneriURI: %(http://www.modelica.org), %[link](http://www.modelica.org")
 ```
-![Plot](b014d.png)
+<img src="b014d.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -119,7 +119,7 @@ Figure(
             identifier="plot-y",
             curves={Curve(y=y, legend="")})})
 ```
-![Plot](e8011.png)
+<img src="e8011.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -131,7 +131,7 @@ Figure(
             curves={Curve(y=x)},
             x=Axis(unit="ms"))})
 ```
-![Plot](e1bbb.png)
+<img src="e1bbb.png" alt="Figure" width=300 />
 
 ```
 Figure(
@@ -141,4 +141,4 @@ Figure(
     plots={
         Plot(curves={Curve(y=x)})})
 ```
-![Plot](c52eb.png)
+<img src="c52eb.png" alt="Figure" width=300 />
