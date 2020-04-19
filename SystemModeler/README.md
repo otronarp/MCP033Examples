@@ -7,6 +7,7 @@ model Test
 end Test;
 ```
 
+---
 ```
 Figure(
     title="Figure with no group",
@@ -16,6 +17,7 @@ Figure(
 ```
 <img src="4afa9.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Different x-axis range",
@@ -29,6 +31,7 @@ Figure(
 ```
 <img src="27b52.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Fixed x-range",
@@ -41,6 +44,7 @@ Figure(
 ```
 <img src="8d098.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Fixed y-range",
@@ -53,6 +57,7 @@ Figure(
 ```
 <img src="9335d.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Fixed y-range with changed unit",
@@ -65,6 +70,7 @@ Figure(
 ```
 <img src="719f3.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="x(t) and (x(t), y(t))",
@@ -76,6 +82,7 @@ Figure(
 ```
 <img src="03671.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Preferred plot",
@@ -86,6 +93,7 @@ Figure(
 ```
 <img src="105c9.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Caption with plot and variable links",
@@ -105,6 +113,7 @@ Figure(
 ```
 <img src="b014d.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="No legend",
@@ -122,6 +131,7 @@ Figure(
 ```
 <img src="e8011.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Autoscale x with changed unit",
@@ -134,6 +144,7 @@ Figure(
 ```
 <img src="e1bbb.png" alt="Figure" width=300 />
 
+---
 ```
 Figure(
     title="Another preferred plot",
