@@ -40,6 +40,7 @@ Figure(
             x=Axis(min=1, max=2, unit="s"))}),
 ```
 <img src="8d098.png" alt="Figure" width=300 />
+
 ```
 Figure(
     title="Fixed y-range",
