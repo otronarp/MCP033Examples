@@ -75,7 +75,7 @@ equation
                 x=Axis(unit="us"))},
         caption=
 "
-A caption can have multiple paragraphs and contain different links and variable replacements.
+A caption can have multiple paragraphs and contain different links and variable replacements.  Empty lines can be inserted before and after paragraphs for improved readability.
 
 The value of %(variable:x) at the end of simulation is %{x}.
 Plot links: %(plot:plot-x), %[first plot](plot:plot-x)
