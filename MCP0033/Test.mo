@@ -100,5 +100,6 @@ equation
         identifier="c52eb",
         preferred=true,
         plots={
-            Plot(curves={Curve(y=x)})})}));
+            Plot(curves={Curve(y=x)})},
+        caption="A figure annotation can have multiple preferred plots and they are all expected to be shown automatically when the class is simulated.")}));
 end Test;

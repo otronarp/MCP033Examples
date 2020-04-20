@@ -10,7 +10,7 @@ end Test;
 ---
 ```
 Figure(
-    title="",
+    title="Figure with no group",
     identifier="4afa9",
     plots={
         Plot(curves={Curve(y=x)})})
@@ -151,6 +151,7 @@ Figure(
     identifier="c52eb",
     preferred=true,
     plots={
-        Plot(curves={Curve(y=x)})})
+        Plot(curves={Curve(y=x)})},
+    caption="A figure annotation can have multiple preferred plots and they are all expected to be shown automatically when the class is simulated.")
 ```
 <img src="c52eb.png" alt="Figure" width=300 />
