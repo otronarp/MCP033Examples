@@ -21,7 +21,8 @@ equation
             Plot(curves={Curve(y=x)}),
             Plot(
                 curves={Curve(y=y)},
-                x=Axis(min=1000000, max=2000000, unit="us"))}),
+                x=Axis(min=1000000, max=2000000, unit="us"))},
+        caption="The plots in a figure can have different ranges for their respective axis."),
     Figure(
         title="Fixed x-range",
         identifier="8d098",
@@ -52,13 +53,15 @@ equation
         group="Multiple Plots",
         plots={
             Plot(curves={Curve(y=x, legend="x(t)")}),
-            Plot(curves={Curve(x=x, y=y, legend="(x(t), y(t))")})}),
+            Plot(curves={Curve(x=x, y=y, legend="(x(t), y(t))")})},
+        caption="It's possible to have curves with a variable as a function of time %[x(t)](variable:x) as well as parametric curves (%[x(t)](variable:x), %[y(t)](variable:y))"),
     Figure(
-        title="Preferred plot",
+        title="Preferred figure",
         identifier="105c9",
         preferred=true,
         plots={
-            Plot(curves={Curve(y=x)})}),
+            Plot(curves={Curve(y=x)})},
+        caption="A figure with preferred=true should be shown automatically when the class is simulated."),
     Figure(
         title="Caption with plot and variable links",
         identifier="b014d",
@@ -85,18 +88,17 @@ Generic URI: %(http://www.modelica.org), %[link](http://www.modelica.org).
 "
     ),
     Figure(
-        title="No legend",
+        title="Empty legend",
         identifier="e8011",
         group="Multiple Plots",
         plots={
             Plot(
-                title="Plot of x",
-                identifier="plot-x",
-                curves={Curve(y=x, legend="")}),
+                title="No Legend",
+                curves={Curve(y=x, legend=""), Curve(y=y, legend="")}),
             Plot(
-                title="Plot of y",
-                identifier="plot-y",
-                curves={Curve(y=y, legend="")})}),
+                title="One Legend",
+                curves={Curve(y=x, legend="x legend"), Curve(y=y, legend="")})},
+        caption="Providing the empty string as legend means that the curve shall be omitted from the plot legend."),
     Figure(
         title="Autoscale x with changed unit",
         identifier="e1bbb",
@@ -104,7 +106,8 @@ Generic URI: %(http://www.modelica.org), %[link](http://www.modelica.org).
         plots={
             Plot(
                 curves={Curve(y=x)},
-                x=Axis(unit="ms"))}),
+                x=Axis(unit="ms"))},
+        caption="Autoscaling can be used in combination with changing the axis display unit"),
     Figure(
         title="Another preferred plot",
         identifier="c52eb",
