@@ -10,7 +10,7 @@ end Test;
 ---
 ```
 Figure(
-    title="Figure with no group",
+    title="",
     identifier="4afa9",
     plots={
         Plot(curves={Curve(y=x)})})
@@ -40,7 +40,7 @@ Figure(
     plots={
         Plot(
             curves={Curve(y=x)},
-            x=Axis(min=1, max=2, unit="s"))}),
+            x=Axis(min=1, max=2, unit="s"))})
 ```
 <img src="8d098.png" alt="Figure" width=300 />
 
@@ -109,7 +109,7 @@ Figure(
             identifier="plot-y",
             curves={Curve(y=y)},
             x=Axis(unit="us"))},
-    caption="A caption can have\nmultiple paragraphs and contaidifferent links and variable replacements. \nThe value of(variable:x) at the end of simulation is %{x}.\nPlot links:(plot:plot-x), %[first plot](plot:plot-x)\n Variable links:(variable:y), %[y(t)](variable:y)\n Modelica URI: %(modelica:/Modelica.Blocks), %[link](modelica:///Modelica.Blocks).\nGeneriURI: %(http://www.modelica.org), %[link](http://www.modelica.org")
+    caption="A caption can have\nmultiple paragraphs and contain different links and variable replacements. \nThe value of %(variable:x) at the end of simulation is %{x}.\nPlot links: %(plot:plot-x), %[first plot](plot:plot-x)\n Variable links: %(variable:y), %[y(t)](variable:y)\n Modelica URI: %(modelica:///Modelica.Blocks), %[link](modelica:///Modelica.Blocks).\nGeneric URI: %(http://www.modelica.org), %[link](http://www.modelica.org).")
 ```
 <img src="b014d.png" alt="Figure" width=300 />
 
