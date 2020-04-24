@@ -12,7 +12,13 @@ equation
         title="Figure with no group",
         identifier="4afa9",
         plots={
-            Plot(curves={Curve(y=x)})}),
+            Plot(curves={Curve(y=x)})},
+        caption="A figure may have an empty group."),
+    Figure(
+        identifier="c6dd5",
+        plots={
+            Plot(curves={Curve(y=x)})},
+        caption="A figure may have an empty title."),
     Figure(
         title="Different x-axis range",
         identifier="27b52",
@@ -30,7 +36,8 @@ equation
         plots={
             Plot(
                 curves={Curve(y=x)},
-                x=Axis(min=1, max=2, unit="s"))}),
+                x=Axis(min=1, max=2, unit="s"))},
+        caption="A plot with a fixed x-range. The unit must be specified when specifying an axis range."),
     Figure(
         title="Fixed y-range",
         identifier="9335d",
@@ -38,7 +45,8 @@ equation
         plots={
             Plot(
                 curves={Curve(y=x)},
-                y=Axis(min=-0.5, max=0.5, unit="m"))}),
+                y=Axis(min=-0.5, max=0.5, unit="m"))},
+        caption="A plot with a fixed y-range. The unit must be specified when specifying an axis range."),
     Figure(
         title="Fixed y-range with changed unit",
         identifier="719f3",
@@ -46,7 +54,8 @@ equation
         plots={
             Plot(
                 curves={Curve(y=x)},
-                y=Axis(min=-100, max=100, unit="cm"))}),
+                y=Axis(min=-100, max=100, unit="cm"))},
+        caption="A plot with a fixed y-range. The unit must be specified when specifying an axis range."),
     Figure(
         title="x(t) and (x(t), y(t))",
         identifier="03671",
@@ -58,6 +67,7 @@ equation
     Figure(
         title="Preferred figure",
         identifier="105c9",
+        group="Preferred Figures",
         preferred=true,
         plots={
             Plot(curves={Curve(y=x)})},
@@ -111,6 +121,7 @@ Generic URI: %(http://www.modelica.org), %[link](http://www.modelica.org).
     Figure(
         title="Another preferred plot",
         identifier="c52eb",
+        group="Preferred Figures",
         preferred=true,
         plots={
             Plot(curves={Curve(y=x)})},

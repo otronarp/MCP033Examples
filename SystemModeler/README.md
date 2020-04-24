@@ -13,9 +13,21 @@ Figure(
     title="Figure with no group",
     identifier="4afa9",
     plots={
-        Plot(curves={Curve(y=x)})})
+        Plot(curves={Curve(y=x)})},
+    caption="A figure may have an empty group.")
 ```
 <img src="4afa9.png" alt="Figure" width=300 />
+
+---
+```
+Figure(
+    title="",
+    identifier="c6dd5",
+    plots={
+        Plot(curves={Curve(y=x)})},
+    caption="A figure may have an empty title.")
+```
+<img src="c6dd5.png" alt="Figure" width=300 />
 
 ---
 ```
@@ -41,7 +53,8 @@ Figure(
     plots={
         Plot(
             curves={Curve(y=x)},
-            x=Axis(min=1, max=2, unit="s"))})
+            x=Axis(min=1, max=2, unit="s"))},
+    caption="A plot with a fixed x-range. The unit must be specified when specifying an axis range.")
 ```
 <img src="8d098.png" alt="Figure" width=300 />
 
@@ -54,7 +67,8 @@ Figure(
     plots={
         Plot(
             curves={Curve(y=x)},
-            y=Axis(min=-0.5, max=0.5, unit="m"))})
+            y=Axis(min=-0.5, max=0.5, unit="m"))},
+    caption="A plot with a fixed y-range. The unit must be specified when specifying an axis range.")
 ```
 <img src="9335d.png" alt="Figure" width=300 />
 
@@ -67,7 +81,8 @@ Figure(
     plots={
         Plot(
             curves={Curve(y=x)},
-            y=Axis(min=-100, max=100, unit="cm"))})
+            y=Axis(min=-100, max=100, unit="cm"))},
+    caption="A plot with a fixed y-range. The unit must be specified when specifying an axis range.")
 ```
 <img src="719f3.png" alt="Figure" width=300 />
 
@@ -89,6 +104,7 @@ Figure(
 Figure(
     title="Preferred figure",
     identifier="105c9",
+    group="Preferred Figures",
     preferred=true,
     plots={
         Plot(curves={Curve(y=x)})},
@@ -164,6 +180,7 @@ Figure(
 Figure(
     title="Another preferred plot",
     identifier="c52eb",
+    group="Preferred Figures",
     preferred=true,
     plots={
         Plot(curves={Curve(y=x)})},
