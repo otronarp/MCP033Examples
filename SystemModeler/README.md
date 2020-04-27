@@ -95,7 +95,7 @@ Figure(
     plots={
         Plot(curves={Curve(y=x, legend="x(t)")}),
         Plot(curves={Curve(x=x, y=y, legend="(x(t), y(t))")})},
-    caption="It's possible to have curves with a variable as a function of time %[x(t)](variable:x) as well as parametric curves (%[x(t)](variable:x), %[y(t)](variable:y))")
+    caption="It's possible to have curves with a variable as a function of time %[x(t)](variable:x) as well as parametric curves (%[x(t)](variable:x), %[y(t)](variable:y)).")
 ```
 <img src="03671.png" alt="Figure" width=300 />
 
@@ -171,7 +171,7 @@ Figure(
         Plot(
             curves={Curve(y=x)},
             x=Axis(unit="ms"))},
-    caption="Autoscaling can be used in combination with changing the axis display unit")
+    caption="Autoscaling can be used in combination with changing the axis display unit.")
 ```
 <img src="e1bbb.png" alt="Figure" width=300 />
 
