@@ -18,7 +18,7 @@ equation
         identifier="c6dd5",
         plots={
             Plot(curves={Curve(y=x)})},
-        caption="A figure may have an empty title."),
+        caption="A figure may have an empty title. An automatically generated title will be used when needed (list of figures, automatically generated link text, etc), but is not guaranteed to be shown in the figure itself."),
     Figure(
         title="Different x-axis range",
         identifier="27b52",
